@@ -143,6 +143,45 @@ ul {
   line-height: 1.8;
 }
 
+.qa-list {
+  display: grid;
+  gap: 10px;
+}
+
+.qa-item {
+  border: 1px solid #f0dce7;
+  border-radius: 12px;
+  padding: 10px 12px;
+  background: #fffdfd;
+}
+
+.qa-q,
+.qa-a {
+  margin: 0;
+  line-height: 1.7;
+}
+
+.qa-a {
+  margin-top: 4px;
+  color: var(--muted);
+}
+
+.contact-footer {
+  padding: 4px 2px 0;
+  text-align: center;
+  font-size: 13px;
+}
+
+.contact-footer a {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.contact-footer a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 860px) {
   .hero-layout {
     grid-template-columns: 1fr;
