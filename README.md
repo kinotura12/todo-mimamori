@@ -1,13 +1,11 @@
 # GitHub Pages テンプレ
 
-このフォルダは、`Todo mimamori` の公開ページ + 更新情報JSONの雛形です。
+このフォルダは、`Todo mimamori` の公開ページ雛形です。
 
 ## 含まれるファイル
 
 - `index.html`: ランディングページ
 - `styles.css`: ページスタイル
-- `version.json`: アプリが参照する最新バージョン情報
-- `releases.json`: 更新履歴（任意）
 
 ## 公開手順（最短）
 
@@ -19,12 +17,5 @@
 
 ## 更新運用
 
-新版配布時に最低限更新するのは `version.json` のみです。
-
-- `latestVersion`
-- `publishedAt`
-- `downloadUrl`
-- `notes`
-
-必要なら `releases.json` に履歴を追記してください。
+新版配布時は `index.html` のダウンロードリンクと更新履歴を更新してください。
 

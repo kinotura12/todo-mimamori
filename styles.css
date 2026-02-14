@@ -66,6 +66,30 @@ h2 {
   line-height: 1.7;
 }
 
+.hero-layout {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 16px;
+  align-items: center;
+}
+
+.hero-copy {
+  min-width: 0;
+}
+
+.hero-thanks {
+  display: block;
+  width: min(100%, 460px);
+  height: auto;
+  margin: 0 auto;
+}
+
+.two-col {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .actions {
   display: flex;
   flex-wrap: wrap;
@@ -92,6 +116,23 @@ h2 {
   background: linear-gradient(120deg, var(--accent), var(--accent-2));
 }
 
+.download-btn {
+  padding: 12px 20px;
+  font-size: 16px;
+}
+
+.panel-survey {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+  text-align: center;
+}
+
+.panel-survey .actions {
+  justify-content: center;
+}
+
 .muted {
   color: var(--muted);
 }
@@ -100,4 +141,22 @@ ul {
   margin: 0;
   padding-left: 18px;
   line-height: 1.8;
+}
+
+@media (max-width: 860px) {
+  .hero-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-copy {
+    text-align: center;
+  }
+
+  .hero-copy .actions {
+    justify-content: center;
+  }
+
+  .two-col {
+    grid-template-columns: 1fr;
+  }
 }

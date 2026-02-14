@@ -13,31 +13,66 @@
   <body>
     <main class="wrap">
       <section class="hero">
-        <p class="eyebrow">Windows App</p>
-        <h1>Todoみまもりタイマー</h1>
-        <p class="lead">
-          かわいい付箋で毎日触りたくなる Todo タイマー。<br />
-          配信者向けのみまもり機能も使えます。
-        </p>
-        <div class="actions">
-          <a class="btn primary" href="https://example.com/setup.exe">最新版をダウンロード</a>
-          <a class="btn" href="./version.json" target="_blank" rel="noreferrer">version.json</a>
+        <div class="hero-layout">
+          <div class="hero-copy">
+            <p class="eyebrow">Windows App</p>
+            <h1>Todoみまもりタイマー</h1>
+            <p class="lead">
+              かわいい付箋で毎日触りたくなる Todo タイマー。<br />
+              配信者向けのみまもり機能も使えます。
+            </p>
+            <div class="actions">
+              <a
+                class="btn primary download-btn"
+                href="https://github.com/kinotura12/todo-mimamori/releases/download/v1.2.0/todo_mimamori-setup-1.2.0.exe"
+              >
+                v1.2.0 をダウンロード
+              </a>
+            </div>
+          </div>
+          <img class="hero-thanks" src="./assets/ThankyTester.png" alt="Thank you, testers!" />
         </div>
       </section>
 
       <section class="panel">
         <h2>最新バージョン</h2>
-        <p><strong>v1.1.5</strong>（サンプル）</p>
-        <p class="muted">公開日: 2026-02-13</p>
+        <p><strong>v1.2.0</strong></p>
+        <p class="muted">公開日: 2026-02-14</p>
       </section>
 
-      <section class="panel">
-        <h2>更新履歴</h2>
-        <ul>
-          <li>v1.1.5: 更新通知のテスト実装</li>
-          <li>v1.1.4: 軽微な修正と改善</li>
-        </ul>
-      </section>
+      <div class="two-col">
+        <section class="panel">
+          <h2>更新履歴</h2>
+          <p class="section-subtitle">
+          version 1.2.0 では、テスト期間中にいただいたご意見をもとに、以下のような機能追加や改善を行いました！
+          </p> 
+          <ul>
+            <li>自動アップデート機能</li>
+            <li>付箋TODOの入れ替え機能</li>
+            <li>日付の横スクロール機能</li>
+            <li>２月以外の使用に対応</li>
+            <li>バックアップ読み込みバグ対応</li>
+            <li>ダークモードに背景色連動（テスト実装中）</li>
+            <li>その他細かい修正対応</li>
+          </ul>
+          <p class="muted">あたたかいご意見、ありがとうございました！</p>
+        </section>
+
+        <section class="panel panel-survey">
+          <h2>テスター協力者向けアンケート</h2>
+          <p class="muted">ご協力ありがとうございます。使ってみた感想をぜひ教えてください。</p>
+          <div class="actions">
+            <a
+              class="btn primary"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfdIujLA1f3fnGzvg0f0I2M2C-CwkwgX6Gf3e60EbwVZ9FX7Q/viewform?usp=header"
+              target="_blank"
+              rel="noreferrer"
+            >
+              アンケートに回答する
+            </a>
+          </div>
+        </section>
+      </div>
     </main>
   </body>
   </html>
