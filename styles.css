@@ -121,6 +121,13 @@ h2 {
   font-size: 16px;
 }
 
+.download-note {
+  margin: 4px 0 10px;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
 .panel-survey {
   display: flex;
   flex-direction: column;
