@@ -1,8 +1,8 @@
 THIRD PARTY LICENSES
 ====================
 
-App: todo_mimamori v1.3.2
-GeneratedAt: 2026-02-20T04:26:57.696Z
+App: todo_mimamori v1.3.3
+GeneratedAt: 2026-02-21T08:42:51.228Z
 Source: package-lock.json (production dependencies only)
 Count: 60
 
